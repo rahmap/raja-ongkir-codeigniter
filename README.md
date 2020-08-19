@@ -1,9 +1,8 @@
-# Raja Ongkir Library for CodeIgniter 3.x
+# Raja Ongkir Library for CodeIgniter 4.x
 
 CodeIgniter library for consuming [RajaOngkir](http://rajaongkir.com) API.
-This library is an update from [hok00age](https://github.com/hok00age/rajaongkir-codeigniter) which is not updated. This library can be used for all types of accounts (starter, basic and pro).
+This library is an update from [andisis](https://github.com/andisis/raja-ongkir-codeigniter) which is only for **Codeigniter 3.x** and not updated. This library can be used for all types of accounts (starter, basic and pro).
 
-**NOTE: This repo is no longer being maintained. If you would like to take it over please email me at andisis92@gmail.com.**
 
 ## Installation
 
