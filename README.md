@@ -6,38 +6,41 @@ This library is an update from [andisis](https://github.com/andisis/raja-ongkir-
 
 ## Installation
 
-Place the file in the right place
+Check :
 
-1. `application/controllers/Rajaongkir.php` to `application/controllers`
-2. `config/rajaongkir.php` to `config`
-3. `libraries/RajaOngkir` to `libraries`
-4. `libraries/rajaongkir.php` to `libraries`
+1. `app/Controllers/Home.php`
+2. `app/Libraries/Rajaongkir.php`
+3. `app/Libraries/RajaOngkir/Endpoints.php`
+4. `app/Libraries/Rajaongkir/Restclient.php`
 
 ## Configuration
 
-Open "**application/config/rajaongkir.php**", enter the API key and change the account type.
+Open "**PROJECT_ROOT => .env**", enter the API key and change the account type.
 
 ## Usage
 
-First, load the RajaOngkir library or autoload it in `config/autoload.php`.
+First, load the RajaOngkir library on `Controllers`.
 
 ```php
-$this->load->library('rajaongkir');
+use \App\Libraries\Rajaongkir;
 ```
 ### Make a request
 
 ```php
+# Instance Object
+$RO = new RajaOngkir();
+
 # Get all province
-$provinces = $this->rajaongkir->province();
+$provinces = $RO->province();
 
 # Get all cities
-$cities = $this->rajaongkir->city();
+$cities = $RO->city();
 
 # Get districts based on cities
-$subdistrict = $this->rajaongkir->subdistrict(151); // city_id = 151
+$subdistrict = $RO->subdistrict(151); // city_id = 151
 
 # Get shipping costs
-$cost = $this->rajaongkir->cost(501, 114, 1000, "jne");
+$cost = $RO->cost(501, 114, 1000, "jne");
 ```
 ### Response
 
