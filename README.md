@@ -6,6 +6,10 @@ This library is an update from [andisis](https://github.com/andisis/raja-ongkir-
 
 ## Installation
 
+```php
+composer require rahmap/rajaongkir-ci4
+```
+
 Check :
 
 1. `app/Controllers/Home.php`
