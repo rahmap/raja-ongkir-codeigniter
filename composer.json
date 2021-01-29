@@ -1,8 +1,8 @@
 {
-	"name": "codeigniter4/appstarter",
-	"type": "project",
-	"description": "CodeIgniter4 starter app",
-	"homepage": "https://codeigniter.com",
+	"name": "rahmap/rajaongkir-ci4",
+	"type": "library",
+	"description": "Library Rajaongkir for Codeigniter 4",
+	"homepage": "https://rajaongkir.com",
 	"license": "MIT",
 	"require": {
 		"php": ">=7.2",
