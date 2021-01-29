@@ -2,12 +2,12 @@
 	"name": "rahmap/rajaongkir-ci4",
 	"type": "library",
 	"description": "Library Rajaongkir for Codeigniter 4",
-	"homepage": "https://rajaongkir.com",
+	"homepage": "https://github.com/rahmap/raja-ongkir-codeigniter",
 	"license": "MIT",
 	"require": {
 		"php": ">=7.2",
 		"codeigniter4/framework": "^4",
-      "ext-curl": "*"
+      		"ext-curl": "*"
     },
 	"require-dev": {
 		"fzaninotto/faker": "^1.9@dev",
