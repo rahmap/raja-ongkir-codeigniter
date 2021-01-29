@@ -1,0 +1,33 @@
+{
+  "name": "rahmap/rajaongkir-ci4",
+  "type": "library",
+  "description": "Library Rajaongkir for Codeigniter 4",
+  "homepage": "https://github.com/rahmap/raja-ongkir-codeigniter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rahma Andita Purnama",
+      "homepage": "https://belisc.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Rajaongkir.php"
+    ],
+    "psr-4": {
+      "rajaongkir-ci4\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://rajaongkir.com/faq",
+    "source": "https://rajaongkir.com/",
+    "wiki": "https://rajaongkir.com/dokumentasi"
+  }
+}
