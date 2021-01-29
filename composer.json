@@ -13,8 +13,13 @@
   ],
   "require": {
     "php": ">=7.2",
-    "codeigniter4/framework": "^4",
     "ext-curl": "*"
+  },
+  "autoload": {
+    "files": ["Rajaongkir.php"],
+    "psr-4": {
+      "rajaongkir-ci4\\": "src/"
+    }
   },
   "support": {
     "issues": "https://rajaongkir.com/faq",
